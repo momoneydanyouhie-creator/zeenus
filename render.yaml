@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: lantern-inn
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
